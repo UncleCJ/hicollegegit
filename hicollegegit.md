@@ -31,7 +31,7 @@ erfarenhet av projekt med flera utvecklare inblandade.
 ## Course outline:
 
 *NOTE: Helene asks for, so would like to establish the course outline 
-roughly, sufficient to answer these:
+roughly, sufficient to answer these:*
 
 * Text om kursen - we have that above, let's translate it
 
@@ -44,9 +44,50 @@ roughly, sufficient to answer these:
 
 * Målgrupp
 
-... actually, no outline really needed to answer those, except for 
+*... actually, no outline really needed to answer those, except for 
 that we do want two different evenings (how long?), will think more anyway
 ... -- CJ 27/10*
+
+### Notes regarding the outline
+
+* We have two evenings at our disposal, undecided how long they should be
+* ...
+
+
+### First session
+
+#### CM why and what, intro
+
+#### Roleplay a CM scenario?
+
+#### Git / CM glossary and cheat sheet
+
+#### Distributed / centralized systems
+
+#### Git and the other tools, what fits where
+
+#### Insert suitable times for coffee and air
+
+#### Insert more content from Naim and Johan?
+
+*...but let's make sure we have some air to breathe,
+for discussions and make good points, save heavier
+stuff for later - CJ*
+
+
+### Second session
+
+#### Refreshing last session
+
+#### SCM-plan, workflows and branching strategies 
+
+#### Code review, test automation and continuos integration (guests?)
+
+#### The CM role and where to allocate smarts
+
+#### Insert suitable times for coffee and air
+
+#### Insert more content from Naim and Johan?
 
 ---
 
