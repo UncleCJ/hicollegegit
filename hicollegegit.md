@@ -1,7 +1,7 @@
 
-# Introduktion till konfigurationshantering och Git
+# Introduction to configuration management and Git
 
-## Kursbeskrivning:
+## Course description:
 
 Konfigurationshantering (CM) i utvecklingsprojekt innebär en mängd
 spännande utmaningar som knyter an till teamet, kodbasen, verktygen och
@@ -25,6 +25,28 @@ Kursen ska ta dig ett steg på den vägen.
 utvecklingseffektivitet. Denna kurs förutsätter att du har viss
 erfarenhet av projekt med flera utvecklare inblandade.
 
+*NOTE: I think this course description still goes, though let's translate
+ it into English to work with the rest of the course -- CJ 27/10*
+
+## Course outline:
+
+*NOTE: Helene asks for, so would like to establish the course outline 
+roughly, sufficient to answer these:
+
+* Text om kursen - we have that above, let's translate it
+
+* En eller två kvällar (17 och/eller 18 nov) - well duh, we do want two
+    occasions, 
+
+* Antal deltagare - Can we do 15 plus us (3-4, let's see?)
+
+* Förkunskapskrav - Both answered above
+
+* Målgrupp
+
+... actually, no outline really needed to answer those, except for 
+that we do want two different evenings (how long?), will think more anyway
+... -- CJ 27/10*
 
 ---
 
