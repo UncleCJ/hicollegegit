@@ -9,17 +9,17 @@ organisationen. Bra CM är en förutsättning för ett effektivt team som
 vill leverera hög kvalité, ändå är det relativt svårfångad kompetens.
 Kursen ska ta dig ett steg på den vägen.
 
-*Ur innehållet:*
+*From the content:*
 
- * Vad och varför konfigurationshantering 
- 
- * CM-plan, workflows och branchingstrategier 
- 
- * Distribuerade / centraliserade system 
- 
- * Git och de andra verktygen, vad passar var 
- 
- * Kodgranskning, testautomatisering och kontinuerlig integration
+* Why and what about Software Configuration Management
+
+* SCM-plan, workflows and branching strategies 
+
+* Distributed / centralized systems
+
+* Git and the other tools, what fits where
+
+* Code review, test automation and continuos integration
 
 *Målgrupp:* Kursen vänder sig till dig som är intresserad av CM-rollen och
 utvecklingseffektivitet. Denna kurs förutsätter att du har viss
