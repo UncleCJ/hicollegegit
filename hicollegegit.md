@@ -3,50 +3,29 @@
 
 ## Course description:
 
-Konfigurationshantering (CM) i utvecklingsprojekt innebär en mängd
-spännande utmaningar som knyter an till teamet, kodbasen, verktygen och
-organisationen. Bra CM är en förutsättning för ett effektivt team som
-vill leverera hög kvalité, ändå är det relativt svårfångad kompetens.
-Kursen ska ta dig ett steg på den vägen.
+Software Configuration Management (SCM) in development Projects means a
+whole bunch of exciting challenges relating to the team, the code base,
+tools and the organization.
 
-*From the content:*
+Good SCM is a prerequisite for an efficient team striving to deliver 
+high quality, but despite this such competence is fairly hard to 
+acquire. This course aims to take you a step along that path.
+
+*From the contents:*
 
 * Why and what about Software Configuration Management
-
-* SCM-plan, workflows and branching strategies 
-
+* SCM-plan, workflows and branching strategies
 * Distributed / centralized systems
-
 * Git and the other tools, what fits where
-
 * Code review, test automation and continuos integration
 
-*Målgrupp:* Kursen vänder sig till dig som är intresserad av CM-rollen och
-utvecklingseffektivitet. Denna kurs förutsätter att du har viss
-erfarenhet av projekt med flera utvecklare inblandade.
+*Target audience:* The course is for you who are interested in the SCM role
+and software development efficiency in general. There are no 
+prerequisites, but it is assumed that you have some experience from 
+projects with multiple developers involved.
 
-*NOTE: I think this course description still goes, though let's translate
- it into English to work with the rest of the course -- CJ 27/10*
 
 ## Course outline:
-
-*NOTE: Helene asks for, so would like to establish the course outline 
-roughly, sufficient to answer these:*
-
-* Text om kursen - we have that above, let's translate it
-
-* En eller två kvällar (17 och/eller 18 nov) - well duh, we do want two
-    occasions, 
-
-* Antal deltagare - Can we do 15 plus us (3-4, let's see?)
-
-* Förkunskapskrav - Both answered above
-
-* Målgrupp
-
-*... actually, no outline really needed to answer those, except for 
-that we do want two different evenings (how long?), will think more anyway
-... -- CJ 27/10*
 
 ### Notes regarding the outline
 
