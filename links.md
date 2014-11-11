@@ -2,7 +2,7 @@
 * [HiCollege course 2014-11](https://wiki.hiq.se/pages/viewpage.action?pageId=47087938)
 * [HiCollege wishlist for this course](https://wiki.hiq.se/display/HSH2B/2014/02/26/Git+workshop)
 * [Previous HiCollege course](https://wiki.hiq.se/display/HiCollege/Git+Power+Workshop)
-* [Our repository in bitbucket](https://bitbucket.org/hicollegegit)
+* [Our team in bitbucket](https://bitbucket.org/hicollegegit)
 * [Shallow single-branch clone in github suitable for colleagues](https://github.com/UncleCJ/hicollegit/)
 
 ## Reference material:
