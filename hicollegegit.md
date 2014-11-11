@@ -37,9 +37,40 @@ projects with multiple developers involved.
 
 #### CM why and what, intro
 
+#### PSA: We can't teach you all of git
+
+* There's so much, ...
+* We learnt it because we're curious and want to be helpful
+
+
 #### Roleplay a CM scenario?
 
-#### Git / CM glossary and cheat sheet
+Demonstrate with [the lab](lab) that merging works.
+
+
+#### Git / CM glossary and cheat sheet (Naim)
+
+*insert cheat sheet links*
+
+##### What you need to use git 
+
+* clone
+* branch / checkout (note about checkout on single files)
+* pull / push
+* add / commit
+
+... yes, we wish these were simpler too
+
+Though they are definitely doable even in the simplest GUI (go Sourcetree!)
+
+##### What you will want to learn
+
+* fetch (explain that pull = fetch+merge)
+* rebase (show the man page)
+* log
+* diff
+* remote 
+* ...
 
 #### Distributed / centralized systems
 
