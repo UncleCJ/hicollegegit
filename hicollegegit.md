@@ -3,50 +3,29 @@
 
 ## Course description:
 
-Konfigurationshantering (CM) i utvecklingsprojekt innebär en mängd
-spännande utmaningar som knyter an till teamet, kodbasen, verktygen och
-organisationen. Bra CM är en förutsättning för ett effektivt team som
-vill leverera hög kvalité, ändå är det relativt svårfångad kompetens.
-Kursen ska ta dig ett steg på den vägen.
+Software Configuration Management (SCM) in development Projects means a
+whole bunch of exciting challenges relating to the team, the code base,
+tools and the organization.
 
-*From the content:*
+Good SCM is a prerequisite for an efficient team striving to deliver 
+high quality, but despite this such competence is fairly hard to 
+acquire. This course aims to take you a step along that path.
+
+*From the contents:*
 
 * Why and what about Software Configuration Management
-
-* SCM-plan, workflows and branching strategies 
-
+* SCM-plan, workflows and branching strategies
 * Distributed / centralized systems
-
 * Git and the other tools, what fits where
-
 * Code review, test automation and continuos integration
 
-*Målgrupp:* Kursen vänder sig till dig som är intresserad av CM-rollen och
-utvecklingseffektivitet. Denna kurs förutsätter att du har viss
-erfarenhet av projekt med flera utvecklare inblandade.
+*Target audience:* The course is for you who are interested in the SCM role
+and software development efficiency in general. There are no 
+prerequisites, but it is assumed that you have some experience from 
+projects with multiple developers involved.
 
-*NOTE: I think this course description still goes, though let's translate
- it into English to work with the rest of the course -- CJ 27/10*
 
 ## Course outline:
-
-*NOTE: Helene asks for, so would like to establish the course outline 
-roughly, sufficient to answer these:*
-
-* Text om kursen - we have that above, let's translate it
-
-* En eller två kvällar (17 och/eller 18 nov) - well duh, we do want two
-    occasions, 
-
-* Antal deltagare - Can we do 15 plus us (3-4, let's see?)
-
-* Förkunskapskrav - Both answered above
-
-* Målgrupp
-
-*... actually, no outline really needed to answer those, except for 
-that we do want two different evenings (how long?), will think more anyway
-... -- CJ 27/10*
 
 ### Notes regarding the outline
 
@@ -56,19 +35,141 @@ that we do want two different evenings (how long?), will think more anyway
 
 ### First session
 
-#### CM why and what, intro
+#### CM why and what, intro (CJ)
 
-#### Roleplay a CM scenario?
+"Now, up to now my plan went all right
+'Til we tried to put it all together one night
+And that's when we noticed that something was definitely wrong
+The transmission was a '53 and the motor turned out to be a '73
+And when we tried to put in the bolts all the holes were gone
 
-#### Git / CM glossary and cheat sheet
+So we drilled it out so that it would fit
+And with a little bit of help with an adapter kit
+We had that engine runnin' just like a song
 
-#### Distributed / centralized systems
+...
 
-#### Git and the other tools, what fits where
+You might say I went right up to the factory
+And picked it up, it's cheaper that way
+Uh, what model is it?
+
+Well, it's a '49, '50, '51, '52, '53, '54, '55, '56
+'57, '58' 59' automobile
+It's a '60, '61, '62, '63, '64, '65, '66, '67
+'68, '69, '70 automobile"
+
+- Johnny Cash "One Piece At A Time" (1976)
+
+http://en.wikipedia.org/wiki/One_Piece_at_a_Time
+
+https://www.youtube.com/watch?v=rWHniL8MyMM
+
+
+##### 
+
+* Configuration Management - http://en.wikipedia.org/wiki/Configuration_management
+
+* Change Management - http://en.wikipedia.org/wiki/Change_management
+
+* Software Configuration Management - http://en.wikipedia.org/wiki/Software_configuration_management
+
+* Revision Control / Version Control / Source Control - http://en.wikipedia.org/wiki/Revision_control
+
+* Distributed Revision (/Version) Control System  http://en.wikipedia.org/wiki/Distributed_revision_control
+
+http://en.wikipedia.org/wiki/List_of_revision_control_software
+
+
+##### Version vs variant control
+
+
+#### The ultimate goal (CJ)
+
+Developer : Product == 1:1
+
+* Review - http://en.wikipedia.org/wiki/Code_review
+
+* Testing
+
+* Static program analysis - http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+
+* Release
+
+* Experimental development
+
+* Integration
+
+* Build quality in - http://www.allaboutagile.com/7-key-principles-of-lean-software-development-2/
+
+* Issue tracking
+
+* Update / Hotfix / Service pack
+
+
+
+http://en.wikipedia.org/wiki/Continuous_integration
+
+http://en.wikipedia.org/wiki/Continuous_delivery
+
+http://en.wikipedia.org/wiki/DevOps
+
+
+#### PSA: We can't teach you all of git
+
+* There's so much, ...
+* We learnt it because we're curious and want to be helpful
+
+
+#### Roleplay a CM scenario? (Naim)
+
+Demonstrate with [the lab](lab) that merging works.
+
+
+#### Git / CM glossary and cheat sheet (Naim)
+
+*insert cheat sheet links*
+
+
+#### What you need to use git (Any)
+
+* clone
+* branch / checkout (note about checkout on single files)
+* pull / push
+* add / commit
+
+... yes, we wish these were simpler too
+
+Though they are definitely doable even in the simplest GUI (go Sourcetree!)
+
+##### What you will want to learn
+
+* fetch (explain that pull = fetch+merge)
+* rebase (show the man page)
+* log
+* diff
+* remote 
+* ...
+* tag
+* baseline
+* autocrlf (and BOM) - https://help.github.com/articles/dealing-with-line-endings/ - https://gitorious.org/bomstrip 
+* change set / commit
+* hook scripts - http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+ * client-side: pre-commit,     prepare-commit-msg , commit-msg, post-commit (pre-rebase, post-rewrite , post-checkout,post-merge, pre-push,pre-auto-gc  ) 
+ * server-side: pre-receive, update, post-receive
+* rebase - https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html
+* merge-base - https://www.kernel.org/pub/software/scm/git/docs/git-merge-base.html
+* filter-branch  - https://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html
+* https://www.kernel.org/pub/software/scm/git/docs/git-merge.html
+
+
+#### Distributed / centralized systems (Naim?)
+
+
+#### Git and the other tools, what fits where (CJ?)
 
 #### Insert suitable times for coffee and air
 
-#### Insert more content from Naim and Johan?
+#### Insert more content regarding Gerrit etc.?
 
 *...but let's make sure we have some air to breathe,
 for discussions and make good points, save heavier
@@ -78,6 +179,15 @@ stuff for later - CJ*
 ### Second session
 
 #### Refreshing last session
+
+* CM why and what, intro (CJ)
+* The ultimate goal (CJ)
+* Roleplay a CM scenario? (Naim)
+* Git / CM glossary and cheat sheet (Naim)
+* What you need to use git (Any)
+* Distributed / centralized systems (Naim?)
+* Git and the other tools, what fits where (CJ?)
+
 
 #### SCM-plan, workflows and branching strategies 
 
