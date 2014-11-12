@@ -35,7 +35,7 @@ projects with multiple developers involved.
 
 ### First session
 
-#### CM why and what, intro
+#### CM why and what, intro (CJ)
 
 "Now, up to now my plan went all right
 'Til we tried to put it all together one night
@@ -65,7 +65,7 @@ http://en.wikipedia.org/wiki/One_Piece_at_a_Time
 https://www.youtube.com/watch?v=rWHniL8MyMM
 
 
-### 
+##### 
 
 * Configuration Management - http://en.wikipedia.org/wiki/Configuration_management
 
@@ -80,10 +80,10 @@ https://www.youtube.com/watch?v=rWHniL8MyMM
 http://en.wikipedia.org/wiki/List_of_revision_control_software
 
 
-### Version vs variant control
+##### Version vs variant control
 
 
-### The ultimate goal
+#### The ultimate goal (CJ)
 
 Developer : Product == 1:1
 
@@ -120,7 +120,7 @@ http://en.wikipedia.org/wiki/DevOps
 * We learnt it because we're curious and want to be helpful
 
 
-#### Roleplay a CM scenario?
+#### Roleplay a CM scenario? (Naim)
 
 Demonstrate with [the lab](lab) that merging works.
 
@@ -129,7 +129,8 @@ Demonstrate with [the lab](lab) that merging works.
 
 *insert cheat sheet links*
 
-##### What you need to use git 
+
+#### What you need to use git (Any)
 
 * clone
 * branch / checkout (note about checkout on single files)
@@ -148,44 +149,27 @@ Though they are definitely doable even in the simplest GUI (go Sourcetree!)
 * diff
 * remote 
 * ...
+* tag
+* baseline
+* autocrlf (and BOM) - https://help.github.com/articles/dealing-with-line-endings/ - https://gitorious.org/bomstrip 
+* change set / commit
+* hook scripts - http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+ * client-side: pre-commit,     prepare-commit-msg , commit-msg, post-commit (pre-rebase, post-rewrite , post-checkout,post-merge, pre-push,pre-auto-gc  ) 
+ * server-side: pre-receive, update, post-receive
+* rebase - https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html
+* merge-base - https://www.kernel.org/pub/software/scm/git/docs/git-merge-base.html
+* filter-branch  - https://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html
+* https://www.kernel.org/pub/software/scm/git/docs/git-merge.html
 
 
+#### Distributed / centralized systems (Naim?)
 
----
 
----
-
-tag
-
-baseline
-
-autocrlf (and BOM) - https://help.github.com/articles/dealing-with-line-endings/ - https://gitorious.org/bomstrip 
-
-change set / commit
-
-hook scripts - http://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
-
-     client-side: pre-commit,     prepare-commit-msg , commit-msg, post-commit (pre-rebase, post-rewrite , post-checkout,post-merge, pre-push,pre-auto-gc  ) 
-
-     server-side: pre-receive, update, post-receive
-
-rebase - https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html
-
-merge-base - https://www.kernel.org/pub/software/scm/git/docs/git-merge-base.html
-
-filter-branch  - https://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html
-
-https://www.kernel.org/pub/software/scm/git/docs/git-merge.html
-
----
-
-#### Distributed / centralized systems
-
-#### Git and the other tools, what fits where
+#### Git and the other tools, what fits where (CJ?)
 
 #### Insert suitable times for coffee and air
 
-#### Insert more content from Naim and Johan?
+#### Insert more content regarding Gerrit etc.?
 
 *...but let's make sure we have some air to breathe,
 for discussions and make good points, save heavier
@@ -195,6 +179,15 @@ stuff for later - CJ*
 ### Second session
 
 #### Refreshing last session
+
+* CM why and what, intro (CJ)
+* The ultimate goal (CJ)
+* Roleplay a CM scenario? (Naim)
+* Git / CM glossary and cheat sheet (Naim)
+* What you need to use git (Any)
+* Distributed / centralized systems (Naim?)
+* Git and the other tools, what fits where (CJ?)
+
 
 #### SCM-plan, workflows and branching strategies 
 
