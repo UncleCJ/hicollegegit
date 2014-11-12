@@ -25,3 +25,10 @@
 * [CJs silly project turned into collaborative translation through github!](http://unclecj.blogspot.se/2010/02/xkcd-tech-support-cheat-sheet-now-in.html)
 * [Google Docs in Plain English - use to explain the collaboration problem](https://www.youtube.com/watch?v=eRqUE6IHTEA)
 * [Linux kernel repository visualized with Gource](https://www.youtube.com/watch?v=AhDiYPLo3p4)
+
+## To sort:
+* http://en.wikipedia.org/wiki/JIRA - http://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems
+* http://en.wikipedia.org/wiki/Puppet_(software)
+* https://gist.github.com/
+* https://travis-ci.com/ http://en.wikipedia.org/wiki/BuildHive
+* https://gitorious.org/
