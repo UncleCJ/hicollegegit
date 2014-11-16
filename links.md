@@ -16,7 +16,14 @@
 * [Gerrit](http://code.google.com/p/gerrit/) (code review)
 * [Gerrithub](http://gerrithub.io/) (Gerrit+Github)
 * [Github pages](https://pages.github.com/) (publish web pages straight from your repo)
+* [Github gist](https://gist.github.com/) (CM'ed pastebin service - CM everything!)
+* [Gitorious server](https://gitorious.org/) (private repository server)
 * [Semantic Merge](http://www.semanticmerge.com/) (semantically aware merge/diff tool by the authors of Plastic SCM)
+* [Araxis Merge](http://www.araxis.com/merge/) (Merge office docs etc, Windows & OS X)
+* [Deltawalker](http://www.deltopia.com/compare-merge-sync/macosx/) ([et al...](http://www.git-tower.com/blog/diff-tools-mac/))
+* [Travis CI](https://travis-ci.com/), [BuildHive](http://en.wikipedia.org/wiki/BuildHive) (continuous integration servers)
+* [Puppet](http://en.wikipedia.org/wiki/Puppet_\(software\)) ("Conventional" CM server software)
+* [Jira](http://en.wikipedia.org/wiki/JIRA) ([Issue tracking](http://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems) server)
 
 ## Misc interesting:
 * [Markdown syntax](https://bitbucket.org/tutorials/markdowndemo) (simple syntax to create documents in git repos)
@@ -27,8 +34,7 @@
 * [Linux kernel repository visualized with Gource](https://www.youtube.com/watch?v=AhDiYPLo3p4)
 
 ## To sort:
-* http://en.wikipedia.org/wiki/JIRA - http://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems
-* http://en.wikipedia.org/wiki/Puppet_(software)
-* https://gist.github.com/
-* https://travis-ci.com/ http://en.wikipedia.org/wiki/BuildHive
-* https://gitorious.org/
+* 
+
+
+
