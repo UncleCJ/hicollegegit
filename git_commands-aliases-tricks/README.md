@@ -43,5 +43,5 @@ amendm = git commit --amend -m
 
 ### Be kind to others
 ```
-`praise` = blame
+praise = blame
 ```
