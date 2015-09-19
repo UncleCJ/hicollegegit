@@ -1,20 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="EN">
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/stylesheet.css"/>
 	<title>Simple page for lab testing in GIT</title>
 </head>
 
 <body>
-	<h1>Sample boxes and GIT</h1>
-	<section id="container">
-		<div class=" inner_div red">Cool red box</div>
-		<div class="inner_div green">Green box lab test</div>
-		<div>New div</div>
-		<div>Added more divs</div>
-		<div>test file</div>
-	</section>
+  <main>
+	  <h1>git- commands tips and tricks</h1>
+	  <section id="entry_tree" class="git-tree">
+		  <div class="image-tree">
+			<img src="images/tree.png"/>
+		  </div>
+
+		 <div class="on-tree">
+		    <div class="command1">
+		      <span class="commit-id"></span>
+		      <div class="flyOut"><a href="#command1">Command1</a></div>
+		     </div>
+
+		    <div class="command2">
+			  <span class="commit-id"></span>
+			  <div class="flyOut"><a href="#command2">Command1</a></div>
+		    </div>
+
+
+			 <div class="command3">
+				 <span class="commit-id"></span>
+				 <div class="flyOut"><a href="#command3">Command1</a></div>
+			 </div>
+
+			 <div class="command4">
+				 <span class="commit-id"></span>
+				 <a href="#command4">
+				 <div class="flyOut">Hello there test</div>
+				 </a>
+			 </div>
+
+
+		 </div>
+	  </section>
+
+
+
+
+	  <section id="command1" class="command1-info">
+		  <h1>Hello command1</h1>
+		  <code>Git status</code>
+	  </section>
+
+	  <section id="command2" class="command2-info">
+		  <h1>Command 2 info</h1>
+
+	  </section>
+
+
+	  <section id="command3" class="command3-info">
+		  <h1>Command 2 info</h1>
+	  </section>
+
+	  <section id="command4" class="command4-info">
+		  <h1>Command 2 info</h1>
+	  </section>
+  </main>
+
+ <footer>
+	 By Naim Latifi
+ </footer>
+
+
+
+
 </body>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/git.js"></script>
 </html>

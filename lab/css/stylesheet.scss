@@ -1,0 +1,213 @@
+$font-stack: Helvetica, sans-serif;
+
+@import  'colors';
+
+@mixin borders ($border-radius) {
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  -ms-border-radius: $border-radius;
+  border-radius: $border-radius;
+}
+
+@mixin circle{
+   @include borders(50%);
+   position: absolute;
+   cursor: pointer;
+   width:15px;
+   height:15px;
+}
+
+@mixin commands-rights {
+  position: absolute;
+
+}
+
+@mixin code-style {
+
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 3.5rem;
+
+}
+
+@mixin command-section {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+}
+
+@mixin flyOut-container {
+  margin-top: 15px;
+  padding:10px 10px;
+  background: rgba(70, 72, 82, 0.9);
+  color: #fff;
+  max-width:300px;
+  height: 55px;
+  overflow: hidden;
+  display: none;
+}
+
+
+
+html {
+	font-size: 62.5%;
+}
+
+body{
+	background-color: $main-color;
+    font-family: $font-stack;
+}
+
+
+main {
+
+
+  h1 {
+    font-size:2.4rem;
+    text-align: center;
+    margin:50px 0 20px 0;
+
+  }
+
+
+
+  .git-tree {
+    background-color: $white-color;
+    position: relative;
+
+
+    .image-tree {
+      width: 620px;
+      height:469px;
+      text-align: center;
+      margin:0 auto;
+      position: relative;
+
+    }
+
+    .on-tree {
+      position: absolute;
+      width:900px;
+      left:0;
+      top:0;
+      right:0;
+    }
+
+    .command1{
+      top:300px;
+      right: 0;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $red-color;
+        right:0;
+
+       }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+
+      }
+
+    }
+
+    .command2 {
+      top:225px;
+      right:0;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $yellow-color;
+        right:0;
+
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+
+    .command3 {
+      top:230px;
+      right: 200px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+       }
+
+       .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+       }
+
+     }
+
+
+    .command4 {
+      top:130px;
+      right: 205px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $pink-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+   }
+
+
+  }
+
+
+
+  .command1-info {
+    @include command-section;
+    background-color: $red-color;
+
+    code {
+      background-color: $black-color;
+      @include code-style;
+    }
+
+  }
+
+  .command4-info {
+    @include command-section;
+    background-color: $pink-color;
+
+    code {
+      background-color: $blue-color;
+      @include code-style;
+    }
+  }
+
+
+  .command3-info {
+    @include command-section;
+    background-color: $blue-color;
+
+    code {
+      @include code-style;
+    }
+  }
+
+
+
+
+
+
