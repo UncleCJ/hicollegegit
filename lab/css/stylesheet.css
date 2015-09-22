@@ -36,7 +36,6 @@ main .git-tree {
     position: relative; }
   main .git-tree .on-tree {
     position: absolute;
-    width: 900px;
     left: 0;
     top: 0;
     right: 0; }
