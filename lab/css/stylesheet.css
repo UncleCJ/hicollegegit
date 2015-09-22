@@ -5,10 +5,26 @@ body {
   background-color: ghostwhite;
   font-family: Helvetica, sans-serif; }
 
+main a.show_screen {
+  font-size: 1.5rem;
+  color: slategrey;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0; }
+main .screenshots {
+  background: #fff;
+  border: 1px solid grey;
+  display: none;
+  margin-top: 20px; }
 main h1 {
-  font-size: 2.4rem;
+  font-size: 7rem;
   text-align: center;
-  margin: 50px 0 20px 0; }
+  margin: 0px 0 20px 0;
+  font-family: 'caviar_dreamsitalic'; }
+main p {
+  font-family: 'droid_sansregular';
+  font-size: 3.0rem;
+  margin: 30px 0; }
 main .git-tree {
   background-color: #fff;
   position: relative; }
@@ -24,6 +40,10 @@ main .git-tree {
     left: 0;
     top: 0;
     right: 0; }
+    main .git-tree .on-tree a {
+      font-size: 3.0rem;
+      color: #fff;
+      text-decoration: none; }
   main .git-tree .command1 {
     top: 300px;
     right: 0;
@@ -37,7 +57,7 @@ main .git-tree {
       cursor: pointer;
       width: 15px;
       height: 15px;
-      background-color: red;
+      background-color: #4c0d09;
       right: 0; }
     main .git-tree .command1 .flyOut {
       -webkit-border-radius: 10px;
@@ -65,7 +85,7 @@ main .git-tree {
       cursor: pointer;
       width: 15px;
       height: 15px;
-      background-color: yellow;
+      background-color: #8B636C;
       right: 0; }
     main .git-tree .command2 .flyOut {
       -webkit-border-radius: 10px;
@@ -121,7 +141,7 @@ main .git-tree {
       cursor: pointer;
       width: 15px;
       height: 15px;
-      background-color: #8B636C;
+      background-color: #F2F2F2;
       right: 0; }
     main .git-tree .command4 .flyOut {
       -webkit-border-radius: 10px;
@@ -136,32 +156,127 @@ main .git-tree {
       height: 55px;
       overflow: hidden;
       display: none; }
+  main .git-tree .command5 {
+    top: 93px;
+    right: 205px;
+    position: absolute; }
+    main .git-tree .command5 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #FFEBCD;
+      right: 0; }
+    main .git-tree .command5 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command6 {
+    top: 93px;
+    right: 205px;
+    position: absolute; }
+    main .git-tree .command6 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #008B8B;
+      right: 0; }
+    main .git-tree .command6 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command7 {
+    top: 93px;
+    right: 170px;
+    position: absolute; }
+    main .git-tree .command7 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #006400;
+      right: 0; }
+    main .git-tree .command7 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+
+footer {
+  padding: 20px;
+  min-height: 200px;
+  background-color: #000;
+  color: #fff;
+  text-align: center; }
 
 .command1-info {
   padding: 20px;
   min-height: 300px;
   text-align: center;
-  background-color: red; }
+  background-color: #4c0d09; }
   .command1-info code {
     background-color: #000;
     font-style: normal;
     border-radius: 10px;
     color: white;
     padding: 5px 15px;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    background-color: #000; }
+  .command1-info h1, .command1-info p {
+    color: #fff;
+    line-height: 50px; }
 
-.command4-info {
+.command2-info {
   padding: 20px;
   min-height: 300px;
   text-align: center;
   background-color: #8B636C; }
-  .command4-info code {
-    background-color: #06406c;
+  .command2-info code {
     font-style: normal;
     border-radius: 10px;
     color: white;
     padding: 5px 15px;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    background-color: #000; }
 
 .command3-info {
   padding: 20px;
@@ -173,6 +288,59 @@ main .git-tree {
     border-radius: 10px;
     color: white;
     padding: 5px 15px;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    background-color: #000; }
+
+.command4-info {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+  background-color: #F2F2F2; }
+  .command4-info code {
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 3.5rem;
+    background-color: #000; }
+
+.command5-info {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+  background-color: #FFEBCD; }
+  .command5-info code {
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 3.5rem;
+    background-color: #000; }
+
+.command6-info {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+  background-color: #008B8B; }
+  .command6-info code {
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 3.5rem;
+    background-color: #000; }
+
+.command7-info {
+  padding: 20px;
+  min-height: 300px;
+  text-align: center;
+  background-color: #006400; }
+  .command7-info code {
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 3.5rem;
+    background-color: #000; }
 
 /*# sourceMappingURL=stylesheet.css.map */

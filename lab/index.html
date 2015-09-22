@@ -5,12 +5,13 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/reset.css"/>
 	<link rel="stylesheet" href="css/stylesheet.css"/>
+	<link rel="stylesheet" href="fonts/stylesheet.css"/>
 	<title>Simple page for lab testing in GIT</title>
 </head>
 
 <body>
   <main>
-	  <h1>git- commands tips and tricks</h1>
+	  <h1>git- commands tree</h1>
 	  <section id="entry_tree" class="git-tree">
 		  <div class="image-tree">
 			<img src="images/tree.png"/>
@@ -19,27 +20,46 @@
 		 <div class="on-tree">
 		    <div class="command1">
 		      <span class="commit-id"></span>
-		      <div class="flyOut"><a href="#command1">Command1</a></div>
+		      <div class="flyOut"><a href="#command1"> git init </a></div>
 		     </div>
 
 		    <div class="command2">
 			  <span class="commit-id"></span>
-			  <div class="flyOut"><a href="#command2">Command1</a></div>
+			  <div class="flyOut"><a href="#command2">git clone </a></div>
 		    </div>
 
 
 			 <div class="command3">
 				 <span class="commit-id"></span>
-				 <div class="flyOut"><a href="#command3">Command1</a></div>
+				 <div class="flyOut"><a href="#command3">git commits</a></div>
 			 </div>
 
 			 <div class="command4">
 				 <span class="commit-id"></span>
 				 <a href="#command4">
-				 <div class="flyOut">Hello there test</div>
+				 <div class="flyOut">git log</div>
 				 </a>
 			 </div>
 
+
+			 <div class="command5">
+				 <span class="commit-id"></span>
+				 <a href="#command5">
+					 <div class="flyOut">git branch</div>
+				 </a>
+			 </div>
+
+			 <div class="command6">
+				 <span class="commit-id"></span>
+				 <a href="#command6">
+					 <div class="flyOut">git merge & pull </div>
+				 </a>
+			 </div>
+
+			 <div class="command7">
+				 <span class="commit-id"></span>
+				 <div class="flyOut"><a href="#command7">git config </a></div>
+			 </div>
 
 		 </div>
 	  </section>
@@ -48,22 +68,69 @@
 
 
 	  <section id="command1" class="command1-info">
-		  <h1>Hello command1</h1>
-		  <code>Git status</code>
+		  <h1>Initializing a project directory</h1>
+		  <p>It is first command</p>
+		  <code>git init</code>
+		  <p>you will use to initialize a git repository. Most of other git commands are not available outside of an initialized repository.</p>
+		  <p>Running this command it will create a .git subdirectory in the project root that contains all the other necessary metadata for the repo</p>
+          <a href="#" class="show_screen">Show screen</a>
+		  <div class="screenshots">
+			  <img src="images/">
+		  </div>
 	  </section>
 
 	  <section id="command2" class="command2-info">
-		  <h1>Command 2 info</h1>
+		  <h1>Cloning a repository</h1>
+		  <p></p>
+		  <code>git clone /path_to_repository</code>
+
+	  </section>
+
+	  <section id="command7" class="command7-info">
+		  <h1>Git configuration</h1>
+		  <p></p>
+		  <code>git clone /path_to_repository</code>
 
 	  </section>
 
 
 	  <section id="command3" class="command3-info">
-		  <h1>Command 2 info</h1>
+		  <h1>GIT Commits </h1>
+		  <p></p>
+		  <code>git commits</code>
+
+		  <a href="#" class="show_screen">Show screen</a>
+		  <div class="screenshots">
+			  <img src="images/">
+		  </div>
 	  </section>
 
 	  <section id="command4" class="command4-info">
-		  <h1>Command 2 info</h1>
+		  <h1> Git history</h1>
+		  <code>git commits</code>
+		  <a href="#" class="show_screen">Show screen</a>
+		  <div class="screenshots">
+			  <img src="images/">
+		  </div>
+	  </section>
+
+
+	  <section id="command5" class="command5-info">
+		  <h1>Git Branching</h1>
+		  <code>git checkout branch</code>
+		  <a href="#" class="show_screen">Show screen</a>
+		  <div class="screenshots">
+			  <img src="images/">
+		  </div>
+	  </section>
+
+	  <section id="command6" class="command6-info">
+		  <h1>Git merge & pull</h1>
+		  <code>git merge & pull</code>
+		  <a href="#" class="show_screen">Show screen</a>
+		  <div class="screenshots">
+			  <img src="images/">
+		  </div>
 	  </section>
   </main>
 

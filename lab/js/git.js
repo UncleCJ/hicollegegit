@@ -5,6 +5,8 @@ var GIT = GIT || {};
         function _buildTree() {
             var $document = $(document),
                 commandSelector = '.on-tree > div';
+                showScreenAnchor = '.show_screen';
+                screenshootContainer = $('.screenshots');
                 context = this;
 
             context.init = function() {
@@ -13,6 +15,7 @@ var GIT = GIT || {};
 
                 onHoverCommits();
                 scrollingToDivs();
+                toggleScreenShoots();
             };
 
             var onHoverCommits = function() {
@@ -23,6 +26,17 @@ var GIT = GIT || {};
                    $(this).find('.flyOut').hide();
 
                });
+            };
+
+
+            var toggleScreenShoots = function(){
+                $(showScreenAnchor).on('click', function(e){
+                    e.preventDefault();
+
+                        screenshootContainer.delay(500).fadeToggle();
+
+
+                });
             };
 
             var scrollingToDivs = function(){
