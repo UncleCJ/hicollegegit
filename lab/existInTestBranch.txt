@@ -1,0 +1,1 @@
+Hej this file exist only in test branch , command traning.
