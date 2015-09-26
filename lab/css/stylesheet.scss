@@ -30,12 +30,13 @@ $font-stack: Helvetica, sans-serif;
     padding: 5px 15px;
     font-size: 3.5rem;
     background-color: $black-color;
+    display: inline-block;
+    margin: 0 15px 10px 0;
 
 }
 
 @mixin command-section {
-  padding: 20px;
-  min-height: 300px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -64,6 +65,13 @@ body{
 
 main {
 
+  .intro {
+    color:$black-color;
+  }
+  h1,p {
+    line-height: 50px;
+  }
+
   a.show_screen {
     font-size: 1.5rem;
     color:slategrey;
@@ -81,14 +89,17 @@ main {
   h1 {
     font-size:7rem;
     text-align: center;
-    margin:0px 0 20px 0;
+    margin:20px 0;
     font-family: 'caviar_dreamsitalic';
+    color:$white-color;
   }
+
 
   p {
     font-family: 'droid_sansregular';
     font-size: 3.0rem;
-    margin:30px 0;
+    margin:10px 0 10px 0;
+    color:$white-color;
   }
 
 
@@ -247,10 +258,259 @@ main {
 
     }
 
+    .command8 {
+      top:200px;
+      right: 200px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command9 {
+      top:155px;
+      right: 150px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command10 {
+      top:310px;
+      right:200px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
 
 
-   }
+    .command11 {
+      top:310px;
+      right:165px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
 
+    }
+
+    .command12 {
+         top:310px;
+         right:55px;
+         @include commands-rights;
+         .commit-id {
+           @include circle;
+           background-color: $blue-color;
+           right:0;
+         }
+         .flyOut {
+           @include borders(10px);
+           @include flyOut-container;
+         }
+
+       }
+
+
+    .command13 {
+      top:310px;
+      right:20px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command14 {
+      top:37px;
+      right:205px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+    }
+
+    .command15 {
+      top:37px;
+      right:300px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+    }
+    .command16 {
+      top:37px;
+      right:370px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blue-color;
+        right:0;
+      }
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+    }
+
+
+    .command17{
+        top:130px;
+        left: 125px;
+        @include commands-rights;
+        .commit-id {
+          @include circle;
+          background-color:$blanched-color;
+          left:0;
+        }
+
+        .flyOut {
+          @include borders(10px);
+          @include flyOut-container;
+        }
+
+      }
+
+    .command18{
+      top:130px;
+      left: 165px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blanched-color;;
+        left:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command19{
+      top:160px;
+      left: 145px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blanched-color;;
+        left:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command20{
+      top:160px;
+      left: 125px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blanched-color;;
+        left:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+
+    .command21{
+      top:180px;
+      left:50px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blanched-color;;
+        left:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command22{
+      top:180px;
+      left:235px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $blanched-color;;
+        left:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+
+
+
+
+  }
 }
 
 
@@ -270,11 +530,6 @@ main {
     code {
       background-color: $black-color;
       @include code-style;
-    }
-
-    h1,p {
-      color:#fff;
-      line-height: 50px;
     }
 
   }
@@ -300,7 +555,9 @@ main {
 .command4-info {
   @include command-section;
   background-color: $grey-color;
-
+  h1{
+    color:$black-color;
+  }
   code {
     @include code-style;
   }
@@ -311,6 +568,9 @@ main {
 .command5-info {
   @include command-section;
   background-color: $blanched-color;
+  h1,p{
+    color:$black-color;
+  }
 
   code {
     @include code-style;

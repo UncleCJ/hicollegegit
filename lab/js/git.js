@@ -4,7 +4,7 @@ var GIT = GIT || {};
     GIT.buildTree = (function () {
         function _buildTree() {
             var $document = $(document),
-                commandSelector = '.on-tree > div';
+                commandSelector = '.on-tree > a ';
                 showScreenAnchor = '.show_screen';
                 screenshootContainer = $('.screenshots');
                 context = this;
@@ -41,7 +41,7 @@ var GIT = GIT || {};
 
             var scrollingToDivs = function(){
 
-                $('.on-tree > div a[href^="#"]').on('click',function (e) {
+                $('.on-tree > a[href^="#"]').on('click',function (e) {
                     e.preventDefault();
                     var target = $(this.hash);
                     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
