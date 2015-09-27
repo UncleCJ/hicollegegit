@@ -19,6 +19,7 @@ $font-stack: Helvetica, sans-serif;
 
 @mixin commands-rights {
   position: absolute;
+  z-index: 3;
 
 }
 
@@ -49,6 +50,9 @@ $font-stack: Helvetica, sans-serif;
   height: 55px;
   overflow: hidden;
   display: none;
+
+
+
 }
 
 
@@ -189,7 +193,7 @@ main {
 
     .command4 {
       top:130px;
-      right: 205px;
+      right: 218px;
       @include commands-rights;
       .commit-id {
         @include circle;
@@ -507,7 +511,92 @@ main {
     }
 
 
+    .command23 {
+      top:130px;
+      right:175px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $grey-color;
+        right:0;
+      }
 
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command24 {
+      top:130px;
+      right:132px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $grey-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+
+
+    .command25 {
+      top:100px;
+      right:130px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $grey-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command26 {
+      top:200px;
+      right:95px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $grey-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+    .command27 {
+      top:250px;
+      right:107px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $grey-color;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
 
 
   }
@@ -558,6 +647,10 @@ main {
   h1{
     color:$black-color;
   }
+
+  p{
+    color:$black-color;
+  }
   code {
     @include code-style;
   }
@@ -595,4 +688,58 @@ main {
     @include code-style;
   }
 }
+
+
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right:0;
+  margin-right:50px;
+  display: none;
+  a {
+    width: 80px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+
+
+  a:hover {
+    color: $white-color;
+  }
+
+  span {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd url('../images/up-arrow.png') no-repeat center center;
+
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+
+  a:hover span {
+    background-color: #777;
+  }
+
+}
+
+
+/* arrow icon (span tag) */
 

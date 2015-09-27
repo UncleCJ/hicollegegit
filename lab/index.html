@@ -39,7 +39,7 @@
 				  <a href="#command4">
 				  <div class="command4">
 					  <span class="commit-id"></span>
-						  <div class="flyOut">git log</div>
+						  <div class="flyOut">git add "--fileName--"</div>
 				  </div>
 				  </a>
 
@@ -168,6 +168,42 @@
 					  </div>
 				  </a>
 
+				  <a href="#command23">
+					  <div class="command23">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git clean -f"</div>
+					  </div>
+				  </a>
+
+				  <a href="#command24">
+					  <div class="command24">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git cherry-pick #commitID"</div>
+					  </div>
+				  </a>
+
+				  <a href="#command25">
+					  <div class="command25">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git stash save "description of stash"</div>
+					  </div>
+				  </a>
+
+				  <a href="#command26">
+					  <div class="command26">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git commit -a -m "message commit"</div>
+					  </div>
+				  </a>
+
+				  <a href="#command27">
+					  <div class="command27">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git commit --amend -m "your message"</div>
+					  </div>
+				  </a>
+
+
 			  </div>
 		  </div>
 	  </section>
@@ -255,9 +291,36 @@
 
 	  <section id="command4" class="command4-info">
 		  <h1>Git commits </h1>
-		  <code>git commits</code>
+		  <p>Adding files to the staging area before commit</p>
+		  <code>git add "-fileName-"</code>
 	  </section>
 
+	  <section id="command23" class="command4-info">
+		  <p>Removing untracked files before commit </p>
+		  <code>git clean -f"</code>
+	  </section>
+
+	  <section id="command24" class="command4-info">
+		  <p>Move a commit from a branch to another branch </p>
+		  <code>git cherry-pick #commitID"</code>
+	  </section>
+
+
+	  <section id="command25" class="command4-info">
+		  <p>Moving untracked files from a branch to another branch before commit</p>
+		  <code>git stash save "stash description"</code>
+		  <code>git stash apply</code>
+	  </section>
+
+	  <section id="command26" class="command4-info">
+		  <p>Committing and staging staging untracked file at the same time</p>
+		  <code>git commit -a -m "message to commit"</code>
+	  </section>
+
+	  <section id="command27" class="command4-info">
+		  <p>Editing the commit message</p>
+		  <code>git commit --amend -m "your message"</code>
+	  </section>
 
 	  <section id="command5" class="command5-info">
 		  <h1>Git Branching</h1>
@@ -301,12 +364,16 @@
 		  <code>git merge & pull</code>
 
 	  </section>
+
+	  <p id="back-top">
+		  <a href="#top"><span></span>Back to Top</a>
+	  </p>
+
   </main>
 
  <footer>
 	 By Naim Latifi
  </footer>
-
 
 
 

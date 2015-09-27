@@ -52,7 +52,8 @@ main .git-tree {
   main .git-tree .command1 {
     top: 300px;
     right: 0;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command1 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -80,7 +81,8 @@ main .git-tree {
   main .git-tree .command2 {
     top: 225px;
     right: 0;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command2 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -108,7 +110,8 @@ main .git-tree {
   main .git-tree .command3 {
     top: 230px;
     right: 200px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command3 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -135,8 +138,9 @@ main .git-tree {
       display: none; }
   main .git-tree .command4 {
     top: 130px;
-    right: 205px;
-    position: absolute; }
+    right: 218px;
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command4 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -164,7 +168,8 @@ main .git-tree {
   main .git-tree .command5 {
     top: 93px;
     right: 205px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command5 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -192,7 +197,8 @@ main .git-tree {
   main .git-tree .command6 {
     top: 93px;
     right: 205px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command6 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -220,7 +226,8 @@ main .git-tree {
   main .git-tree .command7 {
     top: 93px;
     right: 170px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command7 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -248,7 +255,8 @@ main .git-tree {
   main .git-tree .command8 {
     top: 200px;
     right: 200px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command8 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -276,7 +284,8 @@ main .git-tree {
   main .git-tree .command9 {
     top: 155px;
     right: 150px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command9 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -304,7 +313,8 @@ main .git-tree {
   main .git-tree .command10 {
     top: 310px;
     right: 200px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command10 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -332,7 +342,8 @@ main .git-tree {
   main .git-tree .command11 {
     top: 310px;
     right: 165px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command11 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -360,7 +371,8 @@ main .git-tree {
   main .git-tree .command12 {
     top: 310px;
     right: 55px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command12 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -388,7 +400,8 @@ main .git-tree {
   main .git-tree .command13 {
     top: 310px;
     right: 20px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command13 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -416,7 +429,8 @@ main .git-tree {
   main .git-tree .command14 {
     top: 37px;
     right: 205px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command14 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -444,7 +458,8 @@ main .git-tree {
   main .git-tree .command15 {
     top: 37px;
     right: 300px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command15 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -472,7 +487,8 @@ main .git-tree {
   main .git-tree .command16 {
     top: 37px;
     right: 370px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command16 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -500,7 +516,8 @@ main .git-tree {
   main .git-tree .command17 {
     top: 130px;
     left: 125px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command17 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -528,7 +545,8 @@ main .git-tree {
   main .git-tree .command18 {
     top: 130px;
     left: 165px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command18 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -556,7 +574,8 @@ main .git-tree {
   main .git-tree .command19 {
     top: 160px;
     left: 145px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command19 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -584,7 +603,8 @@ main .git-tree {
   main .git-tree .command20 {
     top: 160px;
     left: 125px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command20 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -612,7 +632,8 @@ main .git-tree {
   main .git-tree .command21 {
     top: 180px;
     left: 50px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command21 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -640,7 +661,8 @@ main .git-tree {
   main .git-tree .command22 {
     top: 180px;
     left: 235px;
-    position: absolute; }
+    position: absolute;
+    z-index: 3; }
     main .git-tree .command22 .commit-id {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -653,6 +675,151 @@ main .git-tree {
       background-color: #FFEBCD;
       left: 0; }
     main .git-tree .command22 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command23 {
+    top: 130px;
+    right: 175px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command23 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      right: 0; }
+    main .git-tree .command23 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command24 {
+    top: 130px;
+    right: 132px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command24 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      right: 0; }
+    main .git-tree .command24 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command25 {
+    top: 100px;
+    right: 130px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command25 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      right: 0; }
+    main .git-tree .command25 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command26 {
+    top: 200px;
+    right: 95px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command26 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      right: 0; }
+    main .git-tree .command26 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
+  main .git-tree .command27 {
+    top: 250px;
+    right: 107px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command27 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      right: 0; }
+    main .git-tree .command27 .flyOut {
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
       -ms-border-radius: 10px;
@@ -722,6 +889,8 @@ footer {
   background-color: #e1e1e1; }
   .command4-info h1 {
     color: #000; }
+  .command4-info p {
+    color: #000; }
   .command4-info code {
     font-style: normal;
     border-radius: 10px;
@@ -775,5 +944,44 @@ footer {
     background-color: #000;
     display: inline-block;
     margin: 0 15px 10px 0; }
+
+#back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  margin-right: 50px;
+  display: none; }
+  #back-top a {
+    width: 80px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s; }
+  #back-top a:hover {
+    color: #fff; }
+  #back-top span {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-bottom: 7px;
+    background: #ddd url("../images/up-arrow.png") no-repeat center center;
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s; }
+  #back-top a:hover span {
+    background-color: #777; }
+
+/* arrow icon (span tag) */
 
 /*# sourceMappingURL=stylesheet.css.map */

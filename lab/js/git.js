@@ -4,9 +4,11 @@ var GIT = GIT || {};
     GIT.buildTree = (function () {
         function _buildTree() {
             var $document = $(document),
-                commandSelector = '.on-tree > a ';
-                showScreenAnchor = '.show_screen';
-                screenshootContainer = $('.screenshots');
+                commandSelector = '.on-tree > a ',
+                showScreenAnchor = '.show_screen',
+                screenshootContainer = $('.screenshots'),
+                backToTop = '#back-top',
+                anchorBackToTop = '#back-top a',
                 context = this;
 
             context.init = function() {
@@ -16,6 +18,7 @@ var GIT = GIT || {};
                 onHoverCommits();
                 scrollingToDivs();
                 toggleScreenShoots();
+                scrollToTop();
             };
 
             var onHoverCommits = function() {
@@ -53,6 +56,27 @@ var GIT = GIT || {};
                     }
 
                 });
+            };
+
+            var scrollToTop = function(){
+
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 300) {
+                        $(backToTop).fadeIn().show();
+                    } else {
+                        $(backToTop).fadeOut();
+                    }
+                });
+
+                // scroll body to 0px on click
+                $(anchorBackToTop).click(function (e) {
+                    e.preventDefault();
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+
             };
 
 
