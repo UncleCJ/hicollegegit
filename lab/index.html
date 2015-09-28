@@ -11,7 +11,7 @@
 
 <body>
   <main>
-	  <h1 class="intro">git- commands tree</h1>
+	  <h1 class="intro">git-commands tree</h1>
 	  <section id="entry_tree" class="git-tree">
 		  <div class="image-tree">
 			<img src="images/tree.png"/>
@@ -60,7 +60,7 @@
 				  <a href="#command7">
 				  <div class="command7">
 					  <span class="commit-id"></span>
-					  <div class="flyOut">git config </div>
+					  <div class="flyOut">git config --list </div>
 				  </div>
 				  </a>
 
@@ -203,6 +203,13 @@
 					  </div>
 				  </a>
 
+				  <a href="#command28">
+					  <div class="command28">
+						  <span class="commit-id"></span>
+						  <div class="flyOut">git config --global user.name "your name"</div>
+					  </div>
+				  </a>
+
 
 			  </div>
 		  </div>
@@ -228,11 +235,16 @@
 
 	  <section id="command7" class="command7-info">
 		  <h1>Git configuration</h1>
-		  <p></p>
-		  <code>git clone /path_to_repository</code>
+		  <p>To get the list of your git configuration</p>
+		  <code>git config --list</code>
 
 	  </section>
 
+	  <section id="command28" class="command7-info">
+		  <p>Identify yourself in GIT by setting username or email</p>
+		  <code>git config --global user.name</code>
+		  <code>git config --global user.email</code>
+	  </section>
 
 	  <section id="command3" class="command3-info">
 		  <h1> Git history</h1>
@@ -313,7 +325,7 @@
 	  </section>
 
 	  <section id="command26" class="command4-info">
-		  <p>Committing and staging staging untracked file at the same time</p>
+		  <p>Committing and staging untracked file at the same time</p>
 		  <code>git commit -a -m "message to commit"</code>
 	  </section>
 

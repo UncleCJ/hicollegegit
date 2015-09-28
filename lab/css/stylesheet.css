@@ -832,6 +832,35 @@ main .git-tree {
       height: 55px;
       overflow: hidden;
       display: none; }
+  main .git-tree .command28 {
+    top: 93px;
+    right: 250px;
+    position: absolute;
+    z-index: 3; }
+    main .git-tree .command28 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-color: #006400;
+      right: 0; }
+    main .git-tree .command28 .flyOut {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      margin-top: 15px;
+      padding: 10px 10px;
+      background: rgba(70, 72, 82, 0.9);
+      color: #fff;
+      max-width: 300px;
+      height: 55px;
+      overflow: hidden;
+      display: none; }
 
 footer {
   padding: 20px;

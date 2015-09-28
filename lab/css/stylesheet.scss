@@ -599,6 +599,27 @@ main {
     }
 
 
+    .command28 {
+      top:93px;
+      right: 250px;
+      @include commands-rights;
+      .commit-id {
+        @include circle;
+        background-color: $dark-green;
+        right:0;
+      }
+
+      .flyOut {
+        @include borders(10px);
+        @include flyOut-container;
+      }
+
+    }
+
+
+
+
+
   }
 }
 
