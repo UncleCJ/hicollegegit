@@ -9,6 +9,9 @@ If you know your way around the basic git commands but are looking for more, or 
 Please add to the Resources section any and all interesting tricks that you find during the discussion.
 
 ## Resources
+### How to use aliases
+Add aliases [on the command line](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases) and then you can edit that section of your `~/.gitconfig`.
+
 ### Fat fingers?
 This config setting may help:
 ```
