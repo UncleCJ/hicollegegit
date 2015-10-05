@@ -1,0 +1,4 @@
+hej this file will be called from another branch
+Cool stuff
+
+I can come to this file and see what is on it
