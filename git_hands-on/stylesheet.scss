@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: ghostwhite;
+  font-family: Helvetica, sans-serif; }
+
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 50px 0 20px 0; }
+
+.git-tree {
+  background-color: #fff;
+  position: relative;
+  }
+  .git-tree .image-tree {
+    background-image: url("../images/tree.png");
+    width: 600px;
+    height: 469px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative; }
+  
+   .on-tree {
+    position: absolute;
+    top: 0;
+    background-color: rebeccapurple;
+    width: 620px;
+    height: 300px;
+    left: 25%;
+  }  
+  .git-tree #command1 {
+    top: 300px; }
+    .git-tree #command1 .commit-id {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      cursor: pointer;
+      width: 12px;
+      height: 12px;
+      background-color: red; }
+    .git-tree #command1 .flyOut {
+      margin-top: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      border-radius: 10px;
+      padding: 5px;
+      display: inline-block;
+      background: rgba(70, 72, 82, 0.3); }
+
+/*# sourceMappingURL=stylesheet.css.map */
+/* test with commands */
+
+
+/* Another change here in test1 branch */
