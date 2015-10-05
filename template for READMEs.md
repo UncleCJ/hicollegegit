@@ -5,9 +5,12 @@
 ## Who is this branch for?
 
 
+## Contributing
+
 ## Resources
 Make sure you source these!
 
+# Remove below
 ### How to write markdown
 [Basics](https://help.github.com/articles/markdown-basics/)
 
