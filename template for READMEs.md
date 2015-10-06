@@ -19,3 +19,5 @@ Make sure you source these!
 [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 
 [Writing on GitHub](https://help.github.com/articles/writing-on-github/)
+
+[Markdown live preview](http://markdownlivepreview.com/)
