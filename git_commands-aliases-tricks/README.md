@@ -18,6 +18,9 @@ This config setting may help:
 That will make git autocorrect your commands unless you abort it (*ctrl-c*-style) in 0.5s. Modify the number to get more time. Useful if you keep writing "git stauts" or "git puhs" all the time!
 
 ### Some cool aliases
+#### How to use aliases
+Add aliases [on the command line](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases) and then you can edit that section of your `~/.gitconfig`.
+
 #### Some basic aliases
 These may make your everyday commands faster:
 ```
